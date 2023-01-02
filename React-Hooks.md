@@ -186,8 +186,6 @@ Allora ecco che possiamo usare ***useCallback***.
 
 Il funzionamento è esattamente lo stesso di ***useMemo*** con la differenza che invece di salvare un valore stiamo salvando una funzione. Salvare una funzione significa: ogni volta che noi rigeneriamo il componente, anche se la funzione è sempre la stessa, è comunque diversa da quella precedente perchè le funzioni sono oggetti in javascript.
 
-
-
 ```tsx
 import React, {useCallback, useMemo, useState} from 'react'
 import './App.css'
